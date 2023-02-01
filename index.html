@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="preload" href="https://unpkg.com/nexmoe.css" as="style" />
+    <link rel="stylesheet" href="https://unpkg.com/nexmoe.css" />
+    <link rel="preload" href="https://static.thost3.de/nexmoe-common.css" as="style" />
+    <link rel="stylesheet" href="https://static.thost3.de/nexmoe-common.css" />
+    <link rel="preload" href="https://static.thost3.de/fontawesome-6.1.1/css/all.css" as="style" />
+    <link href="https://static.thost3.de/fontawesome-6.1.1/css/all.css" rel="stylesheet" />
+    <link rel="preload" href="https://static.thost3.de/nexmoe-patch.css" as="style" />
+    <link href="https://static.thost3.de/nexmoe-patch.css" rel="stylesheet" />
+
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <title>Emoji's Site</title>
+    <!--<meta property="og:title" content="Home" />
+    <meta property="og:url" content="https://thost3.de/" />
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Twemoji12_1f600.svg/512px-Twemoji12_1f600.svg.png" />
+    <meta property="og:site_name" content="Emoji's Site" />-->
+</head>
+<body>
+    <nav>
+        <a href="/"><h1 class="fulltitle">Emoji's Site</h1><h1 class="smalltitle">Emoji!</h1></a>
+        <ul>
+            <li><a checked href="/">Home</a></li>
+            <li><a href="/policy.html">Privacy Policy</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>😖 Emoji</h1>
+        <p>Programmer, <abbr title="Cat, oh!">Cat-o</abbr>, Emoji!</p>
+    </header>
+    <main>
+        <section id="me">
+            <header><h2>About Me</h2></header>
+            <articlegrid>
+                <article>
+                    <h3><i class="fa-solid fa-face-smile"></i> Emoji!</h3>
+                    <p>I like emojies, esp. <a href="https://twemoji.twitter.com/">Twitter Emojies!</a></p>
+                    <p style="font-size:2.5em">&#x1f600; &#x1f61c; &#x1f616;</p>
+                </article>
+                <article>
+                    <h3><i class="fa-solid fa-code"></i> Coding Cat-o</h3>
+                    <p>I am a <a href="https://en.wikipedia.org/wiki/Infinite_monkey_theorem">cat randomly typing on the keyboard and accidently formed useful codes</a>. I code:</p>
+                    <ul>
+                        <li><a href="https://www.minetest.net/">Minetest</a> mods</a></li>
+                        <li>Random Telegram/Discord bots</li>
+                        <li><a href="https://scratch.mit.edu/">Scratch</a> games (but always complaining about Scratch's poor features)</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3><i class="fa-solid fa-globe"></i> HTML is <mark>NOT</mark> a programming language</h3>
+                    <p>Apart from programming languages (as mentioned above), I also use markup languages:</p>
+                    <ul>
+                        <li>Markdown to write documentations of programs</li>
+                        <li>HTML to write web interfaces <span style="display:inline-block">(such as what you are looking)</span></li>
+                    </ul>
+                </article>
+                <article>
+                    <h3><i class="fa-solid fa-question"></i> I have no idea what to put here</h3>
+                    <p lang="la" class="firstletter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p style="font-style:italic">DISCLAIMER: All of these are randomly generated, because I (the Cat-o) wrongly recognized the keyboard as a <a href="https://en.wikipedia.org/wiki/Scratching_post">scratching post</a>.</p>
+                </article>
+            </articlegrid>
+        </section>
+    </main>
+    <footer>
+        <p>Using <a href="https://nexmoe.github.io/nexmoe.css/">nexmoe.css</a>, <i class="fa-solid fa-code"></i> with <i class="fa-solid fa-heart"></i> by Emoji. <a href="https://thost3.de/policy.html">Privacy Policy</a></p>
+        <p>Contact: <a href="https://t.me/nya_1f616emo">Telegram</a></p>
+    </footer>
+    <style>
+        .firstletter:first-letter {
+            font-size: 3em;
+            float: left;
+            font-family: "IBM Plex Mono", monospace;
+            margin: 0 .3rem 0 0;
+        }
+        img.emoji {
+            height: 1em;
+            width: 1em;
+            margin: 0 .05em 0 .1em;
+            vertical-align: -0.1em;
+            box-shadow: none;
+        }
+    </style>
+    <script>
+        twemoji.parse(document.body, {
+            folder: 'svg',
+            ext: '.svg'
+        })
+    </script>
+</body>
+</html>
