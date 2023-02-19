@@ -93,6 +93,13 @@
             folder: 'svg',
             ext: '.svg'
         })})
+        let lastopen = 0;
+        document.addEventListener('keydown', (e) => {
+            if (e.key === '.' && (Date.now() > (lastopen + 5000))) {
+                lastopen = Date.now();
+                window.open('https://github.dev/1f616neko/www', '_blank');
+            }
+        });
     </script>
 </body>
 </html>
