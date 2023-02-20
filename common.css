@@ -1,6 +1,9 @@
 /* hlist and plainlist code from https://zh.wikipedia.org/w/index.php?title=MediaWiki:Common.css&oldid=75779152 */
 
 /* Style for horizontal lists (separator following item) */
+.hlist-inline {
+    display: inline-block;
+}
 .hlist dl,
 .hlist ol,
 .hlist ul {
