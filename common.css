@@ -5,12 +5,10 @@
 .hlist-inline * {
     display: inline;
 }
-.hlist-inline *:after {
+.hlist-inline *:after:not(:last-child) {
     content: " · ";
     font-weight: bold;
-}
-.hlist-inline *:last-child:after {
-    content: none;
+    white-space: pre;
 }
 
 /* Twitter Emoji */
