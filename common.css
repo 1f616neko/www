@@ -1,5 +1,9 @@
 .hlist-inline {
-    display: flex;
+    display: inline-flex;
+    -webkit-display: inline-flex;
+}
+.hlist-inline * {
+    display: inline;
 }
 .hlist-inline *:after {
     content: " · ";
