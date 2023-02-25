@@ -5,7 +5,7 @@
 .hlist-inline * {
     display: inline;
 }
-.hlist-inline *:after:not(:last-child) {
+.hlist-inline *:not(:last-child):after {
     content: " · ";
     font-weight: bold;
     white-space: pre;
