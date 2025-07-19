@@ -1,0 +1,5 @@
+Contact: https://bugs.1f616emo.xyz/maniphest/task/edit/form/5/
+Contact: mailto:root@1f616emo.xyz
+Expires: 2025-12-31T16:00:00.000Z
+Preferred-Languages: en, zh
+Canonical: https://1f616emo.xyz/security.txt
